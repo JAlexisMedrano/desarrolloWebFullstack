@@ -1,0 +1,30 @@
+/*Para indicarle al CSS donde o a que cosa queremos aplicarle estilos tenemos que hacer uso de los selectores*/
+
+/* ¿Que es un selector?
+Los selectores definen sobre que elementos se aplicara un conjunto de reglas CSS*/
+
+/* ¿Cual es la sintaxis?
+
+Selector {
+    propiedad: valor
+}
+*/
+
+/* SElector d elemento
+  Se usa para aplicar un estilo CSS a todos los elementos de un mismo tipo*/
+  p{
+    background-color: crimson;
+  }
+
+/* Selector de clase
+  Se usa para aplicar estilo CSS a varios elementos, indistintamente de su tipo, dependen de su clase*/
+  .primeraClase{
+    background-color: aqua;
+  }
+
+/* Selector por ID
+Se usa para aplicar estilo CSS a un elemento en concreto, el ID deberia ser unico*/
+
+#idDelH2{
+    background-color: darkorchid;
+}

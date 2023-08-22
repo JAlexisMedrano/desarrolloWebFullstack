@@ -1,0 +1,54 @@
+.contenedor{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(21, 21, 88);
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow:6px 4px gray;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+label{
+    margin: auto;
+    margin-top: 10px;
+    font-size: 18px;
+}
+input{
+    height: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;  
+    border-radius: 5px;
+}
+.check{
+    width: 200px;
+    margin: auto;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+button{
+    width: 120px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    font-size: 18px;
+}
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}

@@ -1,0 +1,123 @@
+
+.contenedor{
+    width: 420px;
+    margin: auto;
+    background-color: rgb(240, 239, 239);
+    text-align: center;
+    padding-bottom: 10px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px rgb(206, 202, 202) ;
+
+}
+.formulario{
+    width: 100%;
+}
+h2{
+    padding-top: 20px;
+    font-size: 30px;
+}
+form{ 
+    display: flex;
+    flex-direction: row; 
+    margin: 5px;
+     
+}
+label{
+    font-size: 20px;
+    
+}
+input{
+    height: 20px;
+    border: 1px solid black         ;
+    border-radius: 5px;
+}
+select{
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(209, 207, 207);
+}
+
+
+.column1{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+.column2{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.column3{
+    margin-right: 50%;
+    margin-left: -60%;
+    margin-top: 20px;
+}
+.genero{
+    display: flex;
+    flex-direction: column;
+    
+}
+fieldset{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    margin-top: 5px;
+    gap: 5px;
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin-left: -40px;
+    margin-top: 5px;
+    gap: 5px;
+    margin-top: 20px;
+}
+button{
+    background-color: gray;
+    color: white;
+    border: 1px solid rgb(51, 50, 50);
+    border-radius: 5px;
+    width: 180px;
+    height: 30px;
+    margin-top: 20px;
+}
+button:hover {
+    width: 200px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+@media (max-width: 600px){
+    .contenedor{
+        width: 300px;
+    }
+    .formulario{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .column3{
+        margin: 0 0 0;
+        align-items: center;
+    }
+    .check{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        margin:auto;
+        
+    }
+}
+
+

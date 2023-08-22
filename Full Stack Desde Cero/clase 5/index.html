@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Formulario & Inputs</title>
+</head>
+<body>
+    <!--  forms-->
+    <!-- La etiqueta Form tiene entre otras; 2 propiedades-->
+    <!--Action: que es la direccion hacia donde se va dirigir el form-->
+    <!--Method: Que es el metodo http con el que se va enviar -->
+    <form>
+
+        <!--Tipo texto-->
+        <label for="typeText">Tipo texto</label>
+        <input type="text" id="typeText">
+
+        <!--Tipo numero-->
+        <label for="typeNumber">Tipo numero</label>
+        <input type="number" id="typeNumber">
+
+        <!--Tipo Email-->
+        <label for="typeEmail">Tipo email</label>
+        <input type="email" id="typeEmail">
+
+        <!--Tipo Fecha-->
+        <label for="typeDate">Tipo fecha</label>
+        <input type="date" id="typeDate">
+
+        <!--Tipo Archivo-->
+        <label for="typeFile">Tipo archivo</label>
+        <input type="file" id="typeFile">
+
+        <!--Tipo Contraseña-->
+        <label for="typePassword">Tipo contraseña</label>
+        <input type="password" id="typePassword">
+
+        <!--Tipo Rango-->
+        <label for="typeRange">Tipo rango</label>
+        <input type="range" id="typeRange">
+
+        <!--Tipo color-->
+        <label for="typeColor">Tipo color</label>
+        <input type="color" id="typeColor">
+
+        <!--El boton de tipo submit, sirve para enviar el formulario y asi terminar su proceso-->
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
+
+<!--Los metodos HTTP sirve para indicar que tipo de peticion le haremos al servidor-->
+<!--GET: Le indica al servidor que solo quiere recuperar datos
+    POST: Crea un nuevo registro
+    PUT: Se utiliza para "editar" una entidad/registro ya existente
+    DELETE: Es para borrar un registro-->
